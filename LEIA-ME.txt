@@ -1,0 +1,69 @@
+═══════════════════════════════════════════════════════════
+    🎴 LOTERIA MEXICANA - VERSÃO PLUG AND PLAY 🎴
+═══════════════════════════════════════════════════════════
+
+📋 COMO USAR:
+
+1. DÊ UM DUPLO CLIQUE NO ARQUIVO "index.html"
+   - Abre no seu navegador padrão
+   - Funciona com Chrome, Edge, Firefox
+
+2. Selecione as pastas:
+   - Clique em "📁 Selecionar Pasta de Imagens"
+   - Selecione a pasta que contém suas imagens das cartas
+   - Clique em "🎵 Selecionar Pasta de Músicas"
+   - Selecione a pasta que contém suas músicas (opcional)
+
+3. Clique em "▶ Iniciar" para começar!
+
+═══════════════════════════════════════════════════════════
+
+✅ 100% PLUG AND PLAY!
+✅ Não precisa instalar NADA!
+✅ Funciona abrindo o HTML diretamente
+✅ Não precisa de Node.js, Python ou qualquer servidor
+
+═══════════════════════════════════════════════════════════
+
+📁 ESTRUTURA DO PROJETO:
+
+mexicana/
+├── index.html          ← DUPLO CLIQUE AQUI!
+├── script.js           ← Código do programa
+├── style.css           ← Estilos
+├── README.md           ← Documentação
+├── LEIA-ME.txt         ← Este arquivo
+├── imagens/            ← Suas imagens (pode estar em qualquer lugar)
+└── musicas/            ← Suas músicas (pode estar em qualquer lugar)
+
+═══════════════════════════════════════════════════════════
+
+🎮 CONTROLES:
+
+▶ Iniciar - Começa a exibição das cartas e inicia a música
+⏸ Pausar - Pausa a exibição e a música
+🔄 Reiniciar - Embaralha novamente e reinicia
+⏹ Finalizar - Para tudo
+
+═══════════════════════════════════════════════════════════
+
+📝 NOTAS:
+
+- Cada carta fica visível por 8 segundos
+- As cartas são exibidas em ordem aleatória
+- A música toca continuamente em loop durante todo o jogo
+- O histórico mostra todas as cartas já exibidas
+- Formatos suportados:
+  • Imagens: JPG, PNG, GIF, WEBP, BMP
+  • Músicas: MP3, WAV, OGG, AAC, M4A
+
+═══════════════════════════════════════════════════════════
+
+⚠ IMPORTANTE:
+
+- Use Chrome ou Edge para melhor compatibilidade
+- Firefox também funciona
+- As pastas podem estar em qualquer lugar do computador
+- Basta selecionar as pastas uma vez e começar!
+
+═══════════════════════════════════════════════════════════

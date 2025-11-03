@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotería Mexicana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <span class="skull-icon">💀</span>
+            <div class="header-title">
+                <h1>Lotería Mexicana</h1>
+                <p class="header-subtitle">Día de los Muertos</p>
+            </div>
+            <span class="skull-icon">💀</span>
+        </div>
+    </header>
+
+    <div class="folder-selector">
+        <div class="folder-buttons">
+            <label for="imagensInput" class="folder-btn folder-btn-images">
+                <span class="folder-icon">🖼️</span>
+                Selecionar Pasta de Imagens
+            </label>
+            <input type="file" id="imagensInput" webkitdirectory directory multiple accept="image/*" style="display: none;">
+            
+            <label for="musicasInput" class="folder-btn folder-btn-music">
+                <span class="folder-icon">🎵</span>
+                Selecionar Pasta de Músicas
+            </label>
+            <input type="file" id="musicasInput" webkitdirectory directory multiple accept="audio/*" style="display: none;">
+        </div>
+        <span id="folderStatus" class="folder-status">Selecione as pastas com imagens e músicas</span>
+    </div>
+
+    <div class="container">
+
+        <div class="main-content">
+            <div class="card-display-area">
+                <div class="display-card">
+                    <div id="currentCard" class="current-card">
+                        <p class="placeholder-text">Selecione as pastas para começar</p>
+                    </div>
+                    <div id="cardTitle" class="card-title"></div>
+                </div>
+                
+                <div class="controls">
+                    <button id="startBtn" class="btn btn-start" disabled>▷ Iniciar</button>
+                    <button id="pauseBtn" class="btn btn-pause" disabled>⏸ Pausar</button>
+                    <button id="restartBtn" class="btn btn-restart" disabled>↻ Reiniciar</button>
+                    <button id="finishBtn" class="btn btn-finish" disabled>☐ Finalizar</button>
+                </div>
+
+                <div class="stats-card">
+                    <div class="stats-item">
+                        <span class="stats-label">Mostradas:</span>
+                        <span id="shownCount" class="stats-value stats-value-shown">0</span>
+                    </div>
+                    <div class="stats-item">
+                        <span class="stats-label">Restantes:</span>
+                        <span id="remainingCount" class="stats-value stats-value-remaining">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="history-section">
+                <h2>Últimas cartas</h2>
+                <hr class="history-divider">
+                <div id="historyContainer" class="history-container">
+                    <p class="history-empty">Nenhuma carta exibida ainda</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>De Macêdinho para Wigna e a 4V de Comércio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
